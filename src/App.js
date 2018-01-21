@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import 'aframe';
-import 'aframe-animation-component';
-import 'aframe-particle-system-component';
-import 'babel-polyfill';
 import ScatterPlot from './ScatterPlot.js';
 
 class App extends Component {

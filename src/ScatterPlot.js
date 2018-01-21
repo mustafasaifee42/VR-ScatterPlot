@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import 'aframe';
-import 'aframe-animation-component';
-import 'aframe-particle-system-component';
-import 'babel-polyfill';
 import * as d3 from 'd3';
 import { csv } from 'd3-request';
 import {Entity, Scene} from 'aframe-react';
-import 'aframe-text-geometry-component';
-import 'aframe-rounded';
 class ScatterPlot extends Component {
    constructor(props){
       super(props)
